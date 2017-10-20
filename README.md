@@ -3,7 +3,7 @@
 ###### A series of technical documents for engineers (and others)
 
 
-# The 1993 Land Rover Defender 200 Tdi &emsp;&emsp;&emsp;<img src="http://practicalseries.com/1000-home/11-resources/02-images/02-build-status/1003-landrover/bs-D00.svg"><br>Original Owner's Manual 
+# The 1993 Land Rover Defender 200 Tdi &emsp;&emsp;&emsp;<img src="http://practicalseries.com/1000-home/11-resources/02-images/02-build-status/1003-landrover/bs-R01.svg"><br>Original Owner's Manual 
 
 <p align="center">
     <img width="300px" src="01-pages/00-00-index/02-images/fig-00.png">
@@ -25,7 +25,7 @@ Development work always takes place on a separate branch. Development branches a
 
 | Branch             | Revision
 | ------------------ | --------------------------------------
-| master             | <img src="http://practicalseries.com/1000-home/11-resources/02-images/02-build-status/1003-landrover/bs-D00.svg">
+| master             | <img src="http://practicalseries.com/1000-home/11-resources/02-images/02-build-status/1003-landrover/bs-R01.svg">
 
 ## Contents
 
