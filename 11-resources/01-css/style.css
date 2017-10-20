@@ -1122,7 +1122,7 @@ body {
 .flourish {                             /* last section bottom border */
     min-height: 2rem;
     background-image:url(../02-images/flourish.svg) ;
-    background-size: 10%;
+    background-size: 15%;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 1rem;
