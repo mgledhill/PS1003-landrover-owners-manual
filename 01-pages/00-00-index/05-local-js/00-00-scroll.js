@@ -49,13 +49,8 @@ This is a complete summary of all software modifications.
 
 Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
-23 Sep 2017   R01          M. Gledhill    First formal release
 
-10 Jun 2017   P02          M. Gledhill    Published (Section 01 added)
-
-04 Jun 2017   P01          M. Gledhill    First published
-
-27 May 2017   D00          M. Gledhill    Development - based on PS1001 P10
+20 Oct 2017   D01          M. Gledhill    Development - based on PS1001 P10
 ---------------------------------------------------------------------------- */
 
 
@@ -74,7 +69,7 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
    **************************************************************************** */
 
     $('.aside-right-rev').append (
-        "<p>scroll.js&nbsp;&mdash;&nbsp;R01</p>" /* LOCAL JS REVISION NUMBER */
+        "<p>scroll.js&nbsp;&mdash;&nbsp;D01</p>" /* LOCAL JS REVISION NUMBER */
     );
 
 
@@ -119,6 +114,10 @@ $(document).ready(function() {                  /* START OF PAGE READY FUNCTION 
    ------------------------------------------------------------------------- */
     $('.js--sc-000100').click(function () {     /* START of scroll function */
        $('html, body').animate({scrollTop: $('#js--000100').offset().top }, 1000);
+    });                                         /* END of scroll function */
+
+    $('.js--sc-000200').click(function () {     /* START of scroll function */
+       $('html, body').animate({scrollTop: $('#js--000200').offset().top -120}, 1000);
     });                                         /* END of scroll function */
 
 
