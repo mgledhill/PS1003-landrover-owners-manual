@@ -84,6 +84,9 @@ This is a complete summary of all software modifications.
 
 Date          Issue        Author         Reason for Modification
 -------------------------------------------------------------------------------
+02 Aug 2018   R02          M. Gledhill    Second formal release
+                                          Social media icons added
+
 23 Sep 2017   R01          M. Gledhill    First formal release
 
 11 Sep 2017   P15          M. Gledhill    Published
@@ -120,7 +123,7 @@ Date          Issue        Author         Reason for Modification
 27 May 2017   D00          M. Gledhill    Development - based on PS1001 P10
 
 ---------------------------------------------------------------------------- */
-.aside-right-rev:after { content: "style.css\00a0\2014\00a0 \R01"; }      /* CSS REVISION NUMBER */
+.aside-right-rev:after { content: "style.css\00a0\2014\00a0 \R02"; }      /* CSS REVISION NUMBER */
 
 
 
@@ -464,6 +467,44 @@ body {
 .utx:before {                                    /* untested link */
     content: "\25cf";
     color: #ff0000;
+}
+
+
+
+/* ****************************************************************************
+   SOCIAL LINKS
+   ****************************************************************************
+   There are two social media links (Facebook and Twitter) in the footer
+   section, these use the ionicon set of fonts to display the relevent logos
+
+   This handles the positioning of the icons, their colour and their spacing.
+
+   There is some JS to swap outline icons to filled icons on hover, see
+   script.js
+
+   ************************************************************************* */
+
+.social-links {
+    list-style: none;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.social-links li {
+    display:inline;
+    margin-left: 1rem
+}
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    color: #4C6C9C;
+    font-size: 1.3rem;
+}
+.ion-social-facebook {
+    color: #3b5998;
+}
+.ion-social-twitter {
+    color: #00aced;
 }
 
 
